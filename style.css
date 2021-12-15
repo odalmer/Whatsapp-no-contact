@@ -46,7 +46,7 @@ input[type="number"] {
   border-bottom: 0.3rem solid transparent;
   background-color: rgb(255, 255, 255);
 }
-.submit-btn{
+.submit-btn {
   display: grid;
   margin: auto;
   margin-top: 30%;
@@ -58,8 +58,8 @@ input[type="number"] {
   border: none;
   border-radius: 10px;
 }
-@media (max-width:900px) {
-  .main-container{
+@media (max-width: 900px) {
+  .main-container {
     display: block;
     left: 0;
     top: 0px;
@@ -67,7 +67,7 @@ input[type="number"] {
     width: 100vw;
     padding: 6%;
   }
-  body{
+  body {
     background-color: #25d366;
   }
 }
