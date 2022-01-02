@@ -15,7 +15,7 @@ body {
 }
 .main-container {
   width: 30rem;
-  height: 80vh;
+  height: 60%;
   background-color: #1e1e1e;
   border-radius: 50px;
   border: 1px solid#333;
@@ -26,7 +26,7 @@ body {
   width: 70%;
 }
 .container h1 {
-  margin: 40% 0% 20% 0px;
+  margin: 23% 0% 20% 0px;
   color: #25d366;
   font-size: 35px;
   font-weight: 900;
