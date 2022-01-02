@@ -14,23 +14,32 @@
   <body>
     <div class="main-container">
       <div class="container">
-        <h1>
-          Send a WhatsApp <br />
-          to a number
-        </h1>
+        <h1>Whatstrange</h1>
 
-        <form action="https://api.whatsapp.com/send" target="_blank" >
-          <label for="phone">Phone number with prefix </label> <br />
+        <!-- This form redirect to the whatsapp api link -->
+        <form action="https://api.whatsapp.com/send" target="_blank">
+          <label for="numInput">Phone number</label>
+          <!-- phone number-->
           <input
             type="number"
             name="phone"
             id="numInput"
-            placeholder="+18294448866"
+            placeholder="Phone number with prefix"
           />
+          <p>
+            Send a
+            <span
+              ><img
+                src="https://logosarchive.com/wp-content/uploads/2021/07/Whatsapp-logo-icon-transparent.png"
+                alt="Whatsapp icon"
+                width="20px"
+            /></span>
+            message to a number without creating a new contact
+          </p>
           <input
             class="submit-btn"
             type="submit"
-            value="Send message"
+            value="Go to WhatsApp "
             id="submitBtn"
           />
         </form>
